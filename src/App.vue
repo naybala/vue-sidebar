@@ -23,6 +23,10 @@ import Sidebar from './components/Sidebar.vue'
 	--sidebar-width: 300px;
 	--mb-2: 1rem;
     --mb-4: 2rem;
+	--mb-5: 2.5rem;
+    --mb-6: 3rem;
+	--big-font-size: 2rem;
+	--font-semi: 600;
 }
 
 * {

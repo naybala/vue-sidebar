@@ -1,5 +1,5 @@
 <template>
-        <section class="home bd-grid">
+        <section class="home">
                 <div class="home__data">
                     <h1 class="home__title">Hello  <a href="https://earth.google.com/web/" target="_blink" class="home__title-color"><i class="fa-solid fa-earth-americas fa-spin" style="--fa-animation-duration: 15s;"></i></a>,
                     <br>I'am <span class="home__title-color"><typical class="typicalWrapper d-inline"
@@ -11,17 +11,18 @@
                     </h1>
 
                     <p class="mb-3">Email : naybala.153808@gmail.com</p>
-                    <a href="#about" class="button text-decoration-none">Discover</a>
+                     <a href="#about" class="button text-decoration-none">Discover</a>
+                           <div class="home__social mt-1">
+                                  <a
+                                      href="https://www.facebook.com/profile.php?id=100076412994170"
+                                      class="home__social-icon" target="_blink"><i class="fa-brands fa-facebook"></i></a>
+                                  <a href="https://www.instagram.com/naybala190510" class="home__social-icon icon" target="_blink"><i class="fa-brands fa-instagram-square"></i></a>
+                                  <a href="https://github.com/naybala"
+                                      class="home__social-icon"><i class="fa-brands fa-github" target="_blink"></i></a>
+                           </div>
                 </div>
 
-                <div class="home__social mt-1">
-                    <a
-                        href="https://www.facebook.com/profile.php?id=100076412994170"
-                        class="home__social-icon" target="_blink"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/naybala190510" class="home__social-icon icon" target="_blink"><i class="fa-brands fa-instagram-square"></i></a>
-                    <a href="https://github.com/naybala"
-                        class="home__social-icon"><i class="fa-brands fa-github" target="_blink"></i></a>
-                </div>
+             
 
                 <div class="home__img">
                     <svg class="home__blob" viewBox="0 0 479 467"
@@ -74,21 +75,25 @@ export default {
 <style scoped>
 
 /*===== HOME =====*/
-.bd-grid {
-  max-width: 1024px;
-  display: grid;
-  margin-left: var(--mb-2);
-  margin-right: var(--mb-2);
-}
+
 
 .home {
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
   row-gap: 3rem;
-  padding: 6rem 0 5rem;
+  padding: 2rem 0 5rem;
 }
 
 .home__data {
   align-self: center;
+  flex: 50%;
+}
+.home__img {
+  align-self: center;
+  flex: 50%;
 }
 
 .home__title {
@@ -99,49 +104,17 @@ export default {
 .home__title-color {
   color: var(--primary);
 }
-
-.home__social {
-  display: flex;
-  flex-direction: column;
-}
-
-.home__social-icon {
-  width: max-content;
-  margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
-  color: var(--primary);
-}
-
-.home__social-icon:hover {
-  color: var(--primary);
-}
-
-.home__img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 260px;
-}
-
-.home__blob {
-  /* fill : rgb(44, 231, 19); */
-  fill: var(--first-color);
-}
-
-.home__blob-img {
-  width: 600px;
-}
-
-
-/*BUTTONS*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: var(--primary);
   color: #fff;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
   transition: .3s;
+  margin-left: 0rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 .button:hover {
@@ -149,11 +122,65 @@ export default {
    box-shadow: 3px 3px 10px black;
 }
 
-/* ===== MEDIA QUERIES=====*/
+.home__social {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.home__social-icon {
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-left: 0rem;
+}
+
+.home__social-icon:hover {
+  color: var(--primary);
+}
+
+.home__img {
+  width: 100px;
+}
+
+.home__blob {
+  fill: var(--primary);
+}
+
+.home__blob-img {
+  width: 600px;
+}
+
 @media (max-width:430px) and (min-width: 300px){
+  body {
+  overflow-y: hidden;
+}
    .home {
+    margin-left: 5rem;
     row-gap: 0rem;
-    padding: 3rem 0 6rem;
+   
+  }
+}
+
+@media screen and (min-width: 576px) {
+
+  .home__social {
+    padding-top: 0;
+    padding-bottom: 2.5rem;
+    flex-direction: row;
+    align-self: flex-end;
+  }
+  .home__social-icon {
+    margin-bottom: 0;
+    margin-right: var(--mb-4);
+    transition: .3s;
+  }
+  .home__social-icon:hover{
+    transform: translateY(-6px);
+    box-shadow: 2px 2px 10px rgb(223, 219, 219);
+    border-radius: 2.5rem;
+
   }
   .home__img {
     width: 300px;
@@ -163,13 +190,11 @@ export default {
 }
 
 @media screen and (min-width: 992px) {
-  .bd-grid {
-    margin-left: auto;
-    margin-right: auto;
-  }
   .home__img {
-    width: 450px;
+    width: 650px;
   }
 }
+
+
 
 </style>
