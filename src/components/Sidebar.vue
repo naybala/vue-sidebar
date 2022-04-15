@@ -24,8 +24,12 @@
 				<span class="text">About</span>
 			</router-link>
 			<router-link to="/skill" class="button">
+				<span class="material-icons">face</span>
+				<span class="text">Skills</span>
+			</router-link>
+			<router-link to="/project" class="button">
 				<span class="material-icons">group</span>
-				<span class="text">Skill</span>
+				<span class="text">Projects</span>
 			</router-link>
 			<router-link to="/contact" class="button">
 				<span class="material-icons">email</span>
