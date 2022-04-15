@@ -28,7 +28,7 @@
 				<span class="text">Skills</span>
 			</router-link>
 			<router-link to="/project" class="button">
-				<span class="material-icons">group</span>
+				<span class="material-icons">analytics</span>
 				<span class="text">Projects</span>
 			</router-link>
 			<router-link to="/contact" class="button">
