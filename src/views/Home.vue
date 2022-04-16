@@ -76,6 +76,7 @@ export default {
   max-width: 1024px;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .home {
@@ -154,24 +155,35 @@ export default {
 }
 
 @media screen and (max-width: 500px){
-.home{
-  margin-left: 5rem;
-  }
-.home__data {
-  flex: 100%;
-  }
-.home__img {
-    flex: 100%;
-    width: 80px;
-  }
-.home__title {
-  font-size: 1rem;
-  margin-bottom: var(--mb-2);
+    .home{
+      margin-left: 5rem;
+      }
+    .home__data {
+      flex: 100%;
+      }
+    .home__img {
+        flex: 100%;
+        width: 80px;
+      }
+    .home__title {
+      font-size: 1rem;
+      margin-bottom: var(--mb-2);
+    }
+    p {
+      font-size: 0.8rem;
+    }
 }
-p {
-  font-size: 0.8rem;
-}
-}
+@media screen and (max-width: 992px) {
+    .home{
+     margin-top: 2rem;
+     row-gap: 0rem;
+     margin-left: 5rem;
+    }
+    .home__img {
+      width: 370px;
+      flex: 100%;
+    }
+} 
 
 
 /* ===== MEDIA QUERIES=====*/
