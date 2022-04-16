@@ -134,6 +134,7 @@ export default {
   font-size: 1.5rem;
   color: var(--primary);
   margin-left: 0rem;
+  padding-left: 1rem;
 }
 
 .home__social-icon:hover {
@@ -152,14 +153,25 @@ export default {
   width: 600px;
 }
 
-@media (max-width:430px) and (min-width: 300px){
-  body {
-  overflow-y: hidden;
-}
+@media (max-width:600px) and (min-width: 300px){
    .home {
     margin-left: 5rem;
     row-gap: 0rem;
-   
+  }
+  .home__title {
+  font-size:1rem;
+  margin-bottom: var(--mb-2);
+  }
+
+  p{
+    font-size: 0.5rem;
+  }
+
+  .button{
+    margin-bottom: 0rem;
+  }
+   .home__img {
+    width: 200px;
   }
 }
 
