@@ -153,8 +153,9 @@ export default {
   width: 600px;
 }
 
-@media (max-width:600px) and (min-width: 300px){
+@media (max-width:500px) and (min-width: 300px){
    .home {
+    align-self: center;
     margin-left: 5rem;
     row-gap: 0rem;
   }
