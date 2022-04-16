@@ -163,6 +163,7 @@ aside {
 					color: var(--primary);
 				}
 			}
+			
 		}
 	}
 

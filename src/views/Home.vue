@@ -1,5 +1,5 @@
 <template>
-        <section class="home">
+        <section class="home bd-grid" id="home" data-aos="fade-up">
                 <div class="home__data">
                     <h1 class="home__title">Hello  <a href="https://earth.google.com/web/" target="_blink" class="home__title-color"><i class="fa-solid fa-earth-americas fa-spin" style="--fa-animation-duration: 15s;"></i></a>,
                     <br>I'am <span class="home__title-color"><typical class="typicalWrapper d-inline"
@@ -11,19 +11,16 @@
                     </h1>
 
                     <p class="mb-3">Email : naybala.153808@gmail.com</p>
-                     <a href="#about" class="button text-decoration-none">Discover</a>
-                           <div class="home__social mt-1">
-                                  <a
-                                      href="https://www.facebook.com/profile.php?id=100076412994170"
-                                      class="home__social-icon" target="_blink"><i class="fa-brands fa-facebook"></i></a>
-                                  <a href="https://www.instagram.com/naybala190510" class="home__social-icon icon" target="_blink"><i class="fa-brands fa-instagram-square"></i></a>
-                                  <a href="https://github.com/naybala"
-                                      class="home__social-icon"><i class="fa-brands fa-github" target="_blink"></i></a>
-                           </div>
+                    <a href="#about" class="button text-decoration-none">Discover</a>
+                     <div class="home__social mt-1">
+                            <a
+                                href="https://www.facebook.com/profile.php?id=100076412994170"
+                                class="home__social-icon" target="_blink"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/naybala190510" class="home__social-icon icon" target="_blink"><i class="fa-brands fa-instagram-square"></i></a>
+                            <a href="https://github.com/naybala"
+                                class="home__social-icon"><i class="fa-brands fa-github" target="_blink"></i></a>
+                     </div>
                 </div>
-
-             
-
                 <div class="home__img">
                     <svg class="home__blob" viewBox="0 0 479 467"
                         xmlns="http://www.w3.org/2000/svg"
@@ -75,35 +72,72 @@ export default {
 <style scoped>
 
 /*===== HOME =====*/
-
-
-.home {
+.bd-grid {
+  max-width: 1024px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.home {
+  row-gap: 1rem;
+  margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1024px;
-  row-gap: 3rem;
-  padding: 2rem 0 5rem;
 }
 
 .home__data {
   align-self: center;
   flex: 50%;
 }
+
 .home__img {
   align-self: center;
   flex: 50%;
+  width: 700px;
 }
 
 .home__title {
-  font-size: var(--big-font-size);
+  font-size: 2rem;
   margin-bottom: var(--mb-5);
 }
 
 .home__title-color {
   color: var(--primary);
 }
+
+.home__social {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home__social-icon {
+  color: var(--primary);
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  transition: .3s;
+  margin-left: .3rem;
+}
+.home__social-icon:hover {
+   transform: translateY(-3px);
+   box-shadow: 3px 3px 10px black;
+   border-radius: 3rem;
+   transition: .3s;
+}
+
+
+.home__blob {
+  /* fill : rgb(44, 231, 19); */
+  fill: var(--primary);
+}
+
+.home__blob-img {
+  width: 600px;
+}
+
+
+/*BUTTONS*/
 .button {
   display: inline-block;
   background-color: var(--primary);
@@ -112,9 +146,6 @@ export default {
   font-weight: var(--font-semi);
   border-radius: .5rem;
   transition: .3s;
-  margin-left: 0rem;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
 }
 
 .button:hover {
@@ -122,62 +153,33 @@ export default {
    box-shadow: 3px 3px 10px black;
 }
 
-.home__social {
-  display: flex;
-  flex-direction: row;
-
-}
-
-.home__social-icon {
-  width: max-content;
-  margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
-  color: var(--primary);
-  margin-left: 0rem;
-  padding-left: 1rem;
-}
-
-.home__social-icon:hover {
-  color: var(--primary);
-}
-
+@media screen and (max-width: 500px){
+.home{
+  margin-left: 5rem;
+  }
+.home__data {
+  flex: 100%;
+  }
 .home__img {
-  width: 100px;
-}
-
-.home__blob {
-  fill: var(--primary);
-}
-
-.home__blob-img {
-  width: 600px;
-}
-
-@media (max-width:500px) and (min-width: 300px){
-   .home {
-    align-self: center;
-    margin-left: 5rem;
-    row-gap: 0rem;
+    flex: 100%;
+    width: 80px;
   }
-  .home__title {
-  font-size:1rem;
+.home__title {
+  font-size: 1rem;
   margin-bottom: var(--mb-2);
-  }
-
-  p{
-    font-size: 0.5rem;
-  }
-
-  .button{
-    margin-bottom: 0rem;
-  }
-   .home__img {
-    width: 200px;
-  }
+}
+p {
+  font-size: 0.8rem;
+}
 }
 
-@media screen and (min-width: 576px) {
 
+/* ===== MEDIA QUERIES=====*/
+/* @media screen and (min-width: 576px) {
+  .home {
+  row-gap: 3rem;
+  margin-top: 3rem;
+  }
   .home__social {
     padding-top: 0;
     padding-bottom: 2.5rem;
@@ -185,6 +187,7 @@ export default {
     align-self: flex-end;
   }
   .home__social-icon {
+    font-size: var(--big-font-size);
     margin-bottom: 0;
     margin-right: var(--mb-4);
     transition: .3s;
@@ -197,17 +200,19 @@ export default {
   }
   .home__img {
     width: 300px;
-    bottom: 25%;
   }
-  
 }
 
 @media screen and (min-width: 992px) {
   .home__img {
-    width: 650px;
+    width: 450px;
+    align-self: center;
+    flex: 50%;
   }
-}
-
-
+ .home__data {
+  align-self: center;
+  flex: 50%;
+ }
+} */
 
 </style>
