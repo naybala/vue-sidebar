@@ -17,6 +17,10 @@ const router = createRouter({
 			component: () => import('../views/Skill.vue')
 		},
 		{
+			path: '/project',
+			component: () => import('../views/Project.vue')
+		},
+		{
 			path: '/contact',
 			component: () => import('../views/Contact.vue')
 		},

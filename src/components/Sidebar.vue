@@ -15,23 +15,23 @@
 
 		<h3>Menu</h3>
 		<div class="menu">
-			<router-link to="/" class="button">
+			<router-link to="/" class="button" @click="Menu">
 				<span class="material-icons">home</span>
 				<span class="text">Home</span>
 			</router-link>
-			<router-link to="/about" class="button">
+			<router-link to="/about" class="button" @click="Menu">
 				<span class="material-icons">description</span>
 				<span class="text">About</span>
 			</router-link>
-			<router-link to="/skill" class="button">
+			<router-link to="/skill" class="button" @click="Menu">
 				<span class="material-icons">face</span>
 				<span class="text">Skills</span>
 			</router-link>
-			<router-link to="/project" class="button">
+			<router-link to="/project" class="button" @click="Menu">
 				<span class="material-icons">analytics</span>
 				<span class="text">Projects</span>
 			</router-link>
-			<router-link to="/contact" class="button">
+			<router-link to="/contact" class="button" @click="Menu">
 				<span class="material-icons">email</span>
 				<span class="text">Contact</span>
 			</router-link>
@@ -58,6 +58,16 @@ const ToggleMenu = () => {
 	is_expanded.value = !is_expanded.value
 	localStorage.setItem("is_expanded", is_expanded.value)
 }
+
+const Menu = () => {
+	if(localStorage.getItem("is_expanded") === "true"){
+		// console.log("hello");
+		ToggleMenu();
+	}
+}
+
+
+
 </script>
 
 <style lang="scss" scoped>

@@ -10,7 +10,8 @@
                           Web Developer
                     </h1>
 
-                    <p class="mb-3">Email : naybala.153808@gmail.com</p>
+                    <p>Email : <a href="#">naybala.153808@gmail.com</a></p>
+                    <p>Phone : <a href="#">+95 9 763684400</a></p>
                     <a href="#about" class="button text-decoration-none">Discover</a>
                      <div class="home__social mt-1">
                             <a
@@ -154,6 +155,10 @@ export default {
    box-shadow: 3px 3px 10px black;
 }
 
+a{
+  text-decoration: none;
+  color: var(--primary);
+}
 @media (min-width: 290px) and (max-width: 349px){
     .home{
       margin-left: 4.8rem;
