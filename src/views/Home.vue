@@ -77,6 +77,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  
 }
 
 .home {
@@ -84,17 +85,17 @@ export default {
   margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0px;
 }
 
 .home__data {
-  align-self: center;
   flex: 50%;
 }
 
 .home__img {
-  align-self: center;
   flex: 50%;
   width: 700px;
+  margin-bottom: 0;
 }
 
 .home__title {
@@ -129,7 +130,6 @@ export default {
 
 
 .home__blob {
-  /* fill : rgb(44, 231, 19); */
   fill: var(--primary);
 }
 
@@ -154,16 +154,18 @@ export default {
    box-shadow: 3px 3px 10px black;
 }
 
-@media screen and (max-width: 500px){
+@media (min-width: 290px) and (max-width: 349px){
     .home{
-      margin-left: 5rem;
+      margin-left: 4.8rem;
+      display: flex;
+      align-items: center;
       }
     .home__data {
       flex: 100%;
       }
     .home__img {
         flex: 100%;
-        width: 80px;
+        width: 50px;
       }
     .home__title {
       font-size: 1rem;
@@ -173,14 +175,38 @@ export default {
       font-size: 0.8rem;
     }
 }
-@media screen and (max-width: 992px) {
+
+@media (min-width: 350px) and (max-width: 500px){
+    .home{
+      margin-left: 4.5rem;
+      margin-top: 5rem;
+      display: flex;
+      align-items: center;
+      }
+    .home__data {
+      flex: 100%;
+      }
+    .home__img {
+        flex: 100%;
+        width: 100px;
+      }
+    .home__title {
+      font-size: 1rem;
+      margin-bottom: var(--mb-2);
+    }
+    p {
+      font-size: 0.8rem;
+    }
+}
+@media (min-width: 500px) and (max-width: 992px) {
     .home{
      margin-top: 2rem;
      row-gap: 0rem;
-     margin-left: 5rem;
+     display: flex;
+     align-items: center;
     }
     .home__img {
-      width: 370px;
+      width: 376px;
       flex: 100%;
     }
 } 
