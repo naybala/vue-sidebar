@@ -216,46 +216,4 @@ a{
     }
 } 
 
-
-/* ===== MEDIA QUERIES=====*/
-/* @media screen and (min-width: 576px) {
-  .home {
-  row-gap: 3rem;
-  margin-top: 3rem;
-  }
-  .home__social {
-    padding-top: 0;
-    padding-bottom: 2.5rem;
-    flex-direction: row;
-    align-self: flex-end;
-  }
-  .home__social-icon {
-    font-size: var(--big-font-size);
-    margin-bottom: 0;
-    margin-right: var(--mb-4);
-    transition: .3s;
-  }
-  .home__social-icon:hover{
-    transform: translateY(-6px);
-    box-shadow: 2px 2px 10px rgb(223, 219, 219);
-    border-radius: 2.5rem;
-
-  }
-  .home__img {
-    width: 300px;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .home__img {
-    width: 450px;
-    align-self: center;
-    flex: 50%;
-  }
- .home__data {
-  align-self: center;
-  flex: 50%;
- }
-} */
-
 </style>
