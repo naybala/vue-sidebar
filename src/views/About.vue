@@ -24,52 +24,31 @@
 			<div class="card shadow">
 				<img src="../assets/Images/myInfo.jpg" class="img-fluid" alt="...">
 				<h5>Card title</h5>
-					<p>
-					I was born in
-                                Zalun,Ayeyarwady Division,Myanmar.
-                                But now i live in Ingapu Street,SanChaung
-                                Township,Yangon Division.
-                                And then i was learning Web Development.Since
-                                About 2019 December i 
-								started learn Java
-                                Programming.And still learning
-                                html,css,java-script,vue-js,boostrap,php,mysql,laravel
-                                too.
-			
-				</p>
+					<p><span class="text-primary">Hinthada
+                                    Technological University</span> got <span
+                                    class="text-primary">Bachelor Of
+                                    Technology(2018)</span> and <span
+                                    class="text-primary">Bachelor Of Engineering
+                                    (2020)</span> with studying major of
+                                <span class="text-primary">Electronic
+                                    Communication</span>.I also got a chance of
+                                Master Of Engineering and i could not attend
+                                this cause of many reason!You can check
+                                gratuated certifie in Skills
+                                section.</p>
 			</div>
 			<div class="card shadow" id="hidden1">
-				<img src="../assets/Images/myInfo-2.jpg" class="img-fluid" alt="...">
+				<img src="../assets/Images/certificate-3.png" class="img-fluid" alt="...">
 				<h5>Card title</h5>
-					<p>
-						I was born in
-                                Zalun,Ayeyarwady Division,Myanmar.
-                                But now i live in Ingapu Street,SanChaung
-                                Township,Yangon Division.
-                                And then i was learning Web Development.Since
-                                About 2019 December i 
-								started learn Java
-                                Programming.And still learning
-                                html,css,java-script,vue-js,boostrap,php,mysql,laravel
-                                too.
-					</p>
+					<p class="about__text"> - A website wesign
+                                perspective. <br>
+                                - I can work in accordance with Dealine. <br>
+                                - I can work in a team and have a strong desire
+                                to learn. <br>
+                                - I can complete tasks within the specified
+                                time. <br>
+                                - I have good teamwork and communication skills.</p>
 			</div>
-			<!-- <div class="card shadow" id="hidden2">
-				<img src="../assets/Images/myInfo-3.jpg" class="img-fluid" alt="...">
-				<h5>Card title</h5>
-					<p>
-						I was born in
-                                Zalun,Ayeyarwady Division,Myanmar.
-                                But now i live in Ingapu Street,SanChaung
-                                Township,Yangon Division.
-                                And then i was learning Web Development.Since
-                                About 2019 December i 
-								started learn Java
-                                Programming.And still learning
-                                html,css,java-script,vue-js,boostrap,php,mysql,laravel
-                                too.
-					</p>
-			</div> -->
 		</div>
 	</main>
 </template>
@@ -141,7 +120,7 @@
 	}
 	@media (min-width: 500px) and (max-width: 992px) {
 			.about-Container{
-				margin-top: 2rem;
+				margin-top: 4.5rem;
 			
 			}
 	} 
