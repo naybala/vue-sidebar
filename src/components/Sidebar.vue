@@ -219,4 +219,15 @@ aside {
 	}
 
 }
+
+@media (min-width: 290px) and (max-width: 349px){
+
+}
+
+@media (min-width: 350px) and (max-width: 500px){
+	
+}
+@media (min-width: 500px) and (max-width: 992px) {
+
+} 
 </style>

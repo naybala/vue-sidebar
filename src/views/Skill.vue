@@ -295,30 +295,4 @@ export default {
 	}
 } 
 
-
-
-/* @media screen and (min-width: 576px) {
-  .skills__container {
-    grid-template-columns: .7fr;
-    justify-content: center;
-    column-gap: 1rem;
-  }
-
-}
-
-@media screen and (min-width: 767px) {
-  .skills__container {
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 1rem;
-    align-items: center;
-    text-align: initial;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .bd-grid {
-    margin-left: auto;
-    margin-right: auto;
-  }
-} */
 </style>

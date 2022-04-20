@@ -71,7 +71,6 @@ export default {
 </script>
 
 <style scoped>
-
 /*===== HOME =====*/
 .bd-grid {
   max-width: 1024px;
