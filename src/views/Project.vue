@@ -697,6 +697,12 @@ name: 'WrapAround',
    transition: .3s;
 }
 @media (min-width : 298px) and (max-width :330px) {
+  .carousel__item {
+	min-height: 250px;
+  }
+  .container .card {
+   height: 230px;
+}
   .container .card .contentBx .size, .container .card .contentBx .color {
     display: block;
     justify-content: center;

@@ -220,7 +220,7 @@ aside {
 
 }
 
-@media (min-width: 290px) and (max-width: 349px){
+@media (min-width : 298px) and (max-width :330px){
 	aside{
 		min-height: 120%;
 	}
