@@ -24,7 +24,7 @@
                                 </div>
                                 <div class="color mt-1 mb-1">
                                     <h3 class="">Type of Wesbsite :</h3>
-                                    <p class="text-white mt-1">Portfolio</p>
+                                    <p class="text-white mt-2">Portfolio</p>
                                 </div>
                                 <div class="btn-project">
                                     <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
@@ -58,7 +58,7 @@
                                 </div>
                                 <div class="color mt-1 mb-1">
                                     <h3 class="">Type of Wesbsite :</h3>
-                                    <p class="text-white mt-1">Portfolio</p>
+                                    <p class="text-white mt-2">Portfolio</p>
                                 </div>
                                 <div class="btn-project">
                                     <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
@@ -92,7 +92,7 @@
                                 </div>
                                 <div class="color mt-1 mb-1">
                                     <h3 class="">Type of Wesbsite :</h3>
-                                    <p class="text-white mt-1">Portfolio</p>
+                                    <p class="text-white mt-2">Portfolio</p>
                                 </div>
                                 <div class="btn-project">
                                     <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
@@ -126,7 +126,7 @@
                                 </div>
                                 <div class="color mt-1 mb-1">
                                     <h3 class="">Type of Wesbsite :</h3>
-                                    <p class="text-white mt-1">Portfolio</p>
+                                    <p class="text-white mt-2">Portfolio</p>
                                 </div>
                                 <div class="btn-project">
                                     <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
@@ -160,7 +160,7 @@
                                 </div>
                                 <div class="color mt-1 mb-1">
                                     <h3 class="">Type of Wesbsite :</h3>
-                                    <p class="text-white mt-1">Portfolio</p>
+                                    <p class="text-white mt-2">Portfolio</p>
                                 </div>
                                 <div class="btn-project">
                                     <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
@@ -194,7 +194,7 @@
                                 </div>
                                 <div class="color mt-1 mb-1">
                                     <h3 class="">Type of Wesbsite :</h3>
-                                    <p class="text-white mt-1">Portfolio</p>
+                                    <p class="text-white mt-2">Portfolio</p>
                                 </div>
                                 <div class="btn-project">
                                     <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
@@ -209,7 +209,7 @@
 				<Navigation />
 				<Pagination />
     		</template>
-		 </Carousel>
+		</Carousel>
 		<Carousel :wrapAround="true" :settings="settings" :breakpoints="breakpoints">
 			<Slide :key="slide">
 				<div class="carousel__item">
@@ -234,7 +234,7 @@
                                 </div>
                                 <div class="color mt-1 mb-1">
                                     <h3 class="">Type of Wesbsite :</h3>
-                                    <p class="text-white mt-1">Portfolio</p>
+                                    <p class="text-white mt-2">Portfolio</p>
                                 </div>
                                 <div class="btn-project">
                                     <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
@@ -268,7 +268,7 @@
                                 </div>
                                 <div class="color mt-1 mb-1">
                                     <h3 class="">Type of Wesbsite :</h3>
-                                    <p class="text-white mt-1">Portfolio</p>
+                                    <p class="text-white mt-2">Portfolio</p>
                                 </div>
                                 <div class="btn-project">
                                     <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
@@ -302,7 +302,7 @@
                                 </div>
                                 <div class="color mt-1 mb-1">
                                     <h3 class="">Type of Wesbsite :</h3>
-                                    <p class="text-white mt-1">Portfolio</p>
+                                    <p class="text-white mt-2">Portfolio</p>
                                 </div>
                                 <div class="btn-project">
                                     <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
@@ -336,7 +336,7 @@
                                 </div>
                                 <div class="color mt-1 mb-1">
                                     <h3 class="">Type of Wesbsite :</h3>
-                                    <p class="text-white mt-1">Portfolio</p>
+                                    <p class="text-white mt-2">Portfolio</p>
                                 </div>
                                 <div class="btn-project">
                                     <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
@@ -370,7 +370,7 @@
                                 </div>
                                 <div class="color mt-1 mb-1">
                                     <h3 class="">Type of Wesbsite :</h3>
-                                    <p class="text-white mt-1">Portfolio</p>
+                                    <p class="text-white mt-2">Portfolio</p>
                                 </div>
                                 <div class="btn-project">
                                     <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
@@ -404,7 +404,7 @@
                                 </div>
                                 <div class="color mt-1 mb-1">
                                     <h3 class="">Type of Wesbsite :</h3>
-                                    <p class="text-white mt-1">Portfolio</p>
+                                    <p class="text-white mt-2">Portfolio</p>
                                 </div>
                                 <div class="btn-project">
                                     <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
@@ -419,7 +419,7 @@
 				<Navigation />
 				<Pagination />
     		</template>
-		 </Carousel>
+		</Carousel>
 	</main>
 </template>
 
@@ -696,6 +696,54 @@ name: 'WrapAround',
    box-shadow: 3px 3px 10px black;
    transition: .3s;
 }
+@media (min-width : 298px) and (max-width :330px) {
+  .container .card .contentBx .size, .container .card .contentBx .color {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .card .imgBx img {
+	width: 160px;
+  }
+  .container .card .contentBx .size h3, .container .card .contentBx .color h3 {
+   font-size: 10px;
+  }
+  p{
+	font-size: 12px;
+  }
+  .container .card .contentBx .size, .container .card .contentBx .color {
+   padding: 0px 0px;
+ }
+ .skills__icon {
+  font-size: 1rem;
+  margin-right:0px;
+ }
+ .container .card .contentBx .size span {
+    margin: 0 0px;
+}
+}
+
+@media (min-width : 331px) and (max-width :500px) {
+  .container .card .imgBx img {
+	width: 200px;
+  }
+  .container .card .contentBx .size h3, .container .card .contentBx .color h3 {
+   font-size: 10px;
+  }
+  p{
+	font-size: 12px;
+  }
+  .container .card .contentBx .size, .container .card .contentBx .color {
+   padding: 0px 0px;
+ }
+ .skills__icon {
+  font-size: 1rem;
+  margin-right:0px;
+ }
+ .container .card .contentBx .size span {
+    margin: 0 0px;
+}
+}
 
 @media (min-width : 600px) and (max-width :850px) {
 	#project-page{
@@ -718,14 +766,14 @@ name: 'WrapAround',
 	border-radius: 3rem;
   }
   .container .card .imgBx {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1;
-  width: 100%;
-  height: 180px;
-  transition: 0.5s;
-}
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 1;
+		width: 100%;
+		height: 180px;
+		transition: 0.5s;
+  }
 
 }
 
