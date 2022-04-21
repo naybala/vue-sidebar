@@ -1,9 +1,9 @@
 <template>
 	<main id="project-page">
-		<carousel :settings="settings" :breakpoints="breakpoints" :wrap-around = "true">
-			<slide  :key="slide">
+		<Carousel :wrapAround="true" :settings="settings" :breakpoints="breakpoints">
+			<Slide :key="slide">
 				<div class="carousel__item">
-					<div class=" py-3" id="col">
+					<div class="container">
                         <div class="card">
                             <div class="imgBx">
                                 <img
@@ -23,8 +23,8 @@
                                             skills__icon'></i></span>
                                 </div>
                                 <div class="color mt-1 mb-1">
-                                    <h3 class="mt-2">Type of Wesbsite :</h3>
-                                    <p class="text-white">Portfolio</p>
+                                    <h3 class="">Type of Wesbsite :</h3>
+                                    <p class="text-white mt-1">Portfolio</p>
                                 </div>
                                 <div class="btn-project">
                                     <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
@@ -34,10 +34,10 @@
                         </div>
                     </div>
 				</div>
-			</slide>
-			<slide  :key="slide">
+			</Slide>
+			<Slide :key="slide">
 				<div class="carousel__item">
-						<div class=" py-3" id="col">
+					<div class="container">
                         <div class="card">
                             <div class="imgBx">
                                 <img
@@ -57,8 +57,8 @@
                                             skills__icon'></i></span>
                                 </div>
                                 <div class="color mt-1 mb-1">
-                                    <h3 class="mt-2">Type of Wesbsite :</h3>
-                                    <p class="text-white">Portfolio</p>
+                                    <h3 class="">Type of Wesbsite :</h3>
+                                    <p class="text-white mt-1">Portfolio</p>
                                 </div>
                                 <div class="btn-project">
                                     <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
@@ -68,10 +68,10 @@
                         </div>
                     </div>
 				</div>
-			</slide>
-			<slide  :key="slide">
+			</Slide>
+			<Slide :key="slide">
 				<div class="carousel__item">
-					<div class=" py-3" id="col">
+					<div class="container">
                         <div class="card">
                             <div class="imgBx">
                                 <img
@@ -91,8 +91,8 @@
                                             skills__icon'></i></span>
                                 </div>
                                 <div class="color mt-1 mb-1">
-                                    <h3 class="mt-2">Type of Wesbsite :</h3>
-                                    <p class="text-white">Portfolio</p>
+                                    <h3 class="">Type of Wesbsite :</h3>
+                                    <p class="text-white mt-1">Portfolio</p>
                                 </div>
                                 <div class="btn-project">
                                     <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
@@ -102,10 +102,10 @@
                         </div>
                     </div>
 				</div>
-			</slide>
-			<slide  :key="slide">
+			</Slide>
+			<Slide :key="slide">
 				<div class="carousel__item">
-						<div class=" py-3" id="col">
+					<div class="container">
                         <div class="card">
                             <div class="imgBx">
                                 <img
@@ -125,8 +125,8 @@
                                             skills__icon'></i></span>
                                 </div>
                                 <div class="color mt-1 mb-1">
-                                    <h3 class="mt-2">Type of Wesbsite :</h3>
-                                    <p class="text-white">Portfolio</p>
+                                    <h3 class="">Type of Wesbsite :</h3>
+                                    <p class="text-white mt-1">Portfolio</p>
                                 </div>
                                 <div class="btn-project">
                                     <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
@@ -136,10 +136,10 @@
                         </div>
                     </div>
 				</div>
-			</slide>
-			<slide  :key="slide">
+			</Slide>
+			<Slide :key="slide">
 				<div class="carousel__item">
-						<div class=" py-3" id="col">
+					<div class="container">
                         <div class="card">
                             <div class="imgBx">
                                 <img
@@ -159,8 +159,8 @@
                                             skills__icon'></i></span>
                                 </div>
                                 <div class="color mt-1 mb-1">
-                                    <h3 class="mt-2">Type of Wesbsite :</h3>
-                                    <p class="text-white">Portfolio</p>
+                                    <h3 class="">Type of Wesbsite :</h3>
+                                    <p class="text-white mt-1">Portfolio</p>
                                 </div>
                                 <div class="btn-project">
                                     <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
@@ -170,41 +170,262 @@
                         </div>
                     </div>
 				</div>
-			</slide>
-			<template #addons>
-				<navigation />
-				
-			</template>
-		</carousel>
-		<carousel :settings="settings" :breakpoints="breakpoints" :wrap-around = "true">
-			<slide  :key="slide">
-				<div class="carousel__item">1</div>
-			</slide>
-			<slide  :key="slide">
-				<div class="carousel__item">2</div>
-			</slide>
-			<slide  :key="slide">
-				<div class="carousel__item">3</div>
-			</slide>
-			<slide  :key="slide">
-				<div class="carousel__item">4</div>
-			</slide>
-			<slide  :key="slide">
-				<div class="carousel__item">5</div>
-			</slide>
-			<slide  :key="slide">
-				<div class="carousel__item">6</div>
-			</slide>
-			<template #addons>
-				<navigation />
-			</template>
-		</carousel>
+			</Slide>
+			<Slide :key="slide">
+				<div class="carousel__item">
+					<div class="container">
+                        <div class="card">
+                            <div class="imgBx">
+                                <img
+                                    src="../assets/images/logo.png">
+                            </div>
+                            <div class="contentBx">
+                                <h2>TEC Clollage</h2>
+                                <div class="size mt-1 mb-2">
+                                    <h3 class="mt-2">usage :</h3>
+                                    <span> <i class='fa-brands fa-html5
+                                            skills__icon'></i></span>
+                                    <span><i class='fa-brands fa-css3
+                                            skills__icon'></i></span>
+                                    <span> <i class='fa-brands fa-js-square
+                                            skills__icon'></i></span>
+                                    <span> <i class='fab fa-bootstrap
+                                            skills__icon'></i></span>
+                                </div>
+                                <div class="color mt-1 mb-1">
+                                    <h3 class="">Type of Wesbsite :</h3>
+                                    <p class="text-white mt-1">Portfolio</p>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
+                                    target="_blink">View Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</Slide>
+			 <template #addons>
+				<Navigation />
+				<Pagination />
+    		</template>
+		 </Carousel>
+		<Carousel :wrapAround="true" :settings="settings" :breakpoints="breakpoints">
+			<Slide :key="slide">
+				<div class="carousel__item">
+					<div class="container">
+                        <div class="card">
+                            <div class="imgBx">
+                                <img
+                                    src="../assets/images/logo.png">
+                            </div>
+                            <div class="contentBx">
+                                <h2>TEC Clollage</h2>
+                                <div class="size mt-1 mb-2">
+                                    <h3 class="mt-2">usage :</h3>
+                                    <span> <i class='fa-brands fa-html5
+                                            skills__icon'></i></span>
+                                    <span><i class='fa-brands fa-css3
+                                            skills__icon'></i></span>
+                                    <span> <i class='fa-brands fa-js-square
+                                            skills__icon'></i></span>
+                                    <span> <i class='fab fa-bootstrap
+                                            skills__icon'></i></span>
+                                </div>
+                                <div class="color mt-1 mb-1">
+                                    <h3 class="">Type of Wesbsite :</h3>
+                                    <p class="text-white mt-1">Portfolio</p>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
+                                    target="_blink">View Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</Slide>
+			<Slide :key="slide">
+				<div class="carousel__item">
+					<div class="container">
+                        <div class="card">
+                            <div class="imgBx">
+                                <img
+                                    src="../assets/images/logo.png">
+                            </div>
+                            <div class="contentBx">
+                                <h2>TEC Clollage</h2>
+                                <div class="size mt-1 mb-2">
+                                    <h3 class="mt-2">usage :</h3>
+                                    <span> <i class='fa-brands fa-html5
+                                            skills__icon'></i></span>
+                                    <span><i class='fa-brands fa-css3
+                                            skills__icon'></i></span>
+                                    <span> <i class='fa-brands fa-js-square
+                                            skills__icon'></i></span>
+                                    <span> <i class='fab fa-bootstrap
+                                            skills__icon'></i></span>
+                                </div>
+                                <div class="color mt-1 mb-1">
+                                    <h3 class="">Type of Wesbsite :</h3>
+                                    <p class="text-white mt-1">Portfolio</p>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
+                                    target="_blink">View Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</Slide>
+			<Slide :key="slide">
+				<div class="carousel__item">
+					<div class="container">
+                        <div class="card">
+                            <div class="imgBx">
+                                <img
+                                    src="../assets/images/logo.png">
+                            </div>
+                            <div class="contentBx">
+                                <h2>TEC Clollage</h2>
+                                <div class="size mt-1 mb-2">
+                                    <h3 class="mt-2">usage :</h3>
+                                    <span> <i class='fa-brands fa-html5
+                                            skills__icon'></i></span>
+                                    <span><i class='fa-brands fa-css3
+                                            skills__icon'></i></span>
+                                    <span> <i class='fa-brands fa-js-square
+                                            skills__icon'></i></span>
+                                    <span> <i class='fab fa-bootstrap
+                                            skills__icon'></i></span>
+                                </div>
+                                <div class="color mt-1 mb-1">
+                                    <h3 class="">Type of Wesbsite :</h3>
+                                    <p class="text-white mt-1">Portfolio</p>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
+                                    target="_blink">View Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</Slide>
+			<Slide :key="slide">
+				<div class="carousel__item">
+					<div class="container">
+                        <div class="card">
+                            <div class="imgBx">
+                                <img
+                                    src="../assets/images/logo.png">
+                            </div>
+                            <div class="contentBx">
+                                <h2>TEC Clollage</h2>
+                                <div class="size mt-1 mb-2">
+                                    <h3 class="mt-2">usage :</h3>
+                                    <span> <i class='fa-brands fa-html5
+                                            skills__icon'></i></span>
+                                    <span><i class='fa-brands fa-css3
+                                            skills__icon'></i></span>
+                                    <span> <i class='fa-brands fa-js-square
+                                            skills__icon'></i></span>
+                                    <span> <i class='fab fa-bootstrap
+                                            skills__icon'></i></span>
+                                </div>
+                                <div class="color mt-1 mb-1">
+                                    <h3 class="">Type of Wesbsite :</h3>
+                                    <p class="text-white mt-1">Portfolio</p>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
+                                    target="_blink">View Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</Slide>
+			<Slide :key="slide">
+				<div class="carousel__item">
+					<div class="container">
+                        <div class="card">
+                            <div class="imgBx">
+                                <img
+                                    src="../assets/images/logo.png">
+                            </div>
+                            <div class="contentBx">
+                                <h2>TEC Clollage</h2>
+                                <div class="size mt-1 mb-2">
+                                    <h3 class="mt-2">usage :</h3>
+                                    <span> <i class='fa-brands fa-html5
+                                            skills__icon'></i></span>
+                                    <span><i class='fa-brands fa-css3
+                                            skills__icon'></i></span>
+                                    <span> <i class='fa-brands fa-js-square
+                                            skills__icon'></i></span>
+                                    <span> <i class='fab fa-bootstrap
+                                            skills__icon'></i></span>
+                                </div>
+                                <div class="color mt-1 mb-1">
+                                    <h3 class="">Type of Wesbsite :</h3>
+                                    <p class="text-white mt-1">Portfolio</p>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
+                                    target="_blink">View Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</Slide>
+			<Slide :key="slide">
+				<div class="carousel__item">
+					<div class="container">
+                        <div class="card">
+                            <div class="imgBx">
+                                <img
+                                    src="../assets/images/logo.png">
+                            </div>
+                            <div class="contentBx">
+                                <h2>TEC Clollage</h2>
+                                <div class="size mt-1 mb-2">
+                                    <h3 class="mt-2">usage :</h3>
+                                    <span> <i class='fa-brands fa-html5
+                                            skills__icon'></i></span>
+                                    <span><i class='fa-brands fa-css3
+                                            skills__icon'></i></span>
+                                    <span> <i class='fa-brands fa-js-square
+                                            skills__icon'></i></span>
+                                    <span> <i class='fab fa-bootstrap
+                                            skills__icon'></i></span>
+                                </div>
+                                <div class="color mt-1 mb-1">
+                                    <h3 class="">Type of Wesbsite :</h3>
+                                    <p class="text-white mt-1">Portfolio</p>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://61f03b2509e1d572f0acd7be--naughty-hugle-7cf607.netlify.app/"
+                                    target="_blink">View Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</Slide>
+			 <template #addons>
+				<Navigation />
+				<Pagination />
+    		</template>
+		 </Carousel>
 	</main>
 </template>
 
 <script>
 import { defineComponent } from 'vue';
-import { Carousel, Navigation, Slide } from 'vue3-carousel';
+import { Carousel, Navigation, Slide,Pagination } from 'vue3-carousel';
 
 import 'vue3-carousel/dist/carousel.css';
 
@@ -214,26 +435,25 @@ name: 'WrapAround',
     Carousel,
     Slide,
     Navigation,
+	Pagination,
   },
   setup() {
 		return {
 			// carousel settings
 			settings: {
 				itemsToShow: 1,
-				snapAlign: "center"
 			},
 			// breakpoints are mobile first
 			// any settings not specified will fallback to the carousel settings
 			breakpoints: {
-				// 700px and up
-				700: {
-					itemsToShow: 2.5,
-					snapAlign: "center"
+				// 900px and up
+				900: {
+					itemsToShow: 2,
+
 				},
 				// 1024 and up
 				1024: {
-					itemsToShow: 4,
-					snapAlign: "start"
+					itemsToShow: 3,
 				}
 			}
 		};
@@ -242,41 +462,52 @@ name: 'WrapAround',
 </script>
 
 <style>
-#project-page{
-	margin-top: 1rem;
-}
 .carousel__item {
-	min-height: 40vh;
-	width:76%;
-	color: white;
-	border-radius: 8px;
-	display: flex;
-	margin: 0;
-	padding: 0;
-	/* background-color: #e91e63; */
+  min-height: 430px;
+  width: 100%;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.carousel__slide > .carousel__item {
+  transform: scale(1);
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.carousel__slide--visible > .carousel__item {
+  opacity: 1;
+  transform: rotateY(0);
+}
+.carousel__slide--next > .carousel__item {
+  transform: scale(0.9) translate(-10px);
+}
+.carousel__slide--prev > .carousel__item {
+  transform: scale(0.9) translate(10px);
+}
+.carousel__slide--active > .carousel__item {
+  transform: scale(1.1);
+}
 
 
 
 .carousel__prev,
 .carousel__next {
+	background-color:var(--primary);
 	box-sizing: content-box;
-	border: 5px solid white;
+	border: 5px solid var(--light)
 }
 
-.card {
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  width: 256px;
-  height: 396px;
+.container .card {
+  cursor: pointer;
+  width:100%;
+  height: 380px;
   background: #232323;
-  border-radius: 20px;
+  border-radius: 3rem;
   overflow: hidden;
 }
 
-.card:before {
+.container .card:before {
   content: 'naybala';
   position: absolute;
   top: 0;
@@ -286,13 +517,14 @@ name: 'WrapAround',
   background: var(--primary);
   clip-path: circle(200px at 50% 20%);
   transition: 1s ease-in-out;
+  border-radius: 3rem;
 }
 
-.card:hover:before {
-  clip-path: circle(300px at 80% -20%);
+.container .card:hover:before {
+  clip-path: circle(300px at 80% -40%);
 }
 
-.card:after {
+.container .card:after {
   content: '';
   position: absolute;
   top: 30%;
@@ -303,7 +535,7 @@ name: 'WrapAround',
   color: rgba(255, 255, 25, 0.05)
 }
 
-.card .imgBx {
+.container .card .imgBx {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -313,13 +545,13 @@ name: 'WrapAround',
   transition: 0.5s;
 }
 
-.card:hover .imgBx {
+.container .card:hover .imgBx {
   top: 0%;
   transform: translateY(0%);
 
 }
 
-.card .imgBx img {
+.container .card .imgBx img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -327,7 +559,7 @@ name: 'WrapAround',
   width: 270px;
 }
 
-.card .contentBx {
+.container .card .contentBx {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -337,11 +569,11 @@ name: 'WrapAround',
   z-index: 10;
 }
 
-.card:hover .contentBx {
+.container .card:hover .contentBx {
   height: 210px;
 }
 
-.card .contentBx h2 {
+.container .card .contentBx h2 {
   position: relative;
   font-weight: 600;
   letter-spacing: 1px;
@@ -349,8 +581,8 @@ name: 'WrapAround',
   margin: 0;
 }
 
-.card .contentBx .size,
-.card .contentBx .color {
+.container .card .contentBx .size,
+.container .card .contentBx .color {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -362,20 +594,20 @@ name: 'WrapAround',
   padding-bottom: 0;
 }
 
-.card:hover .contentBx .size {
+.container .card:hover .contentBx .size {
   opacity: 1;
   visibility: visible;
   transition-delay: 0.5s;
 }
 
-.card:hover .contentBx .color {
+.container .card:hover .contentBx .color {
   opacity: 1;
   visibility: visible;
   transition-delay: 0.6s;
 }
 
-.card .contentBx .size h3,
-.card .contentBx .color h3 {
+.container .card .contentBx .size h3,
+.container .card .contentBx .color h3 {
   color: #fff;
   font-weight: 300;
   font-size: 14px;
@@ -384,7 +616,7 @@ name: 'WrapAround',
   margin-right: 10px;
 }
 
-.card .contentBx .size span {
+.container .card .contentBx .size span {
   width: 26px;
   height: 26px;
   text-align: center;
@@ -465,10 +697,25 @@ name: 'WrapAround',
    transition: .3s;
 }
 
-@media (min-width : 300px) and (max-width :800px) {
+@media (min-width : 600px) and (max-width :850px) {
+	#project-page{
+		padding-top: 4rem;
+	}
+	.container{
+	background-color: var(--light);
+	}
+  .carousel__item {
+		min-height: 400px;
+		width: 90%;
+		border-radius: 3rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+  }
   .container .card {
-    width: 300px;
-    height: 410px;
+    width: 100%;
+    height: 350px;
+	border-radius: 3rem;
   }
   .container .card .imgBx {
   position: absolute;
@@ -479,26 +726,9 @@ name: 'WrapAround',
   height: 180px;
   transition: 0.5s;
 }
-.flex-container {
-  justify-content: center;
-}
-}
-  @media screen and (min-width: 767px) {
- 
-  .section {
-    padding-top: 4rem;
-    padding-bottom: 3rem;
-  }
 
-  .section-title {
-    margin-bottom: var(--mb-6);
-  }
-
-  .section-title::after {
-    width: 80px;
-    top: 3rem;
-  }
 }
+
 
 
 </style>
