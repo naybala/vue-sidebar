@@ -701,18 +701,25 @@ name: 'WrapAround',
 	min-height: 250px;
   }
   .container .card {
-   height: 230px;
-}
+   height: 220px;
+ }
   .container .card .contentBx .size, .container .card .contentBx .color {
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
   }
   .container .card .imgBx img {
-	width: 160px;
+    position: absolute;
+    top: 39%;
+}
+  .container .card .imgBx img {
+	width: 140px;
   }
   .container .card .contentBx .size h3, .container .card .contentBx .color h3 {
    font-size: 10px;
+   text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 2px;
   }
   p{
 	font-size: 12px;
@@ -726,10 +733,83 @@ name: 'WrapAround',
  }
  .container .card .contentBx .size span {
     margin: 0 0px;
+ }
+ .container .card:before {
+	content: 'naybala';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--primary);
+	clip-path: circle(100px at 50% 20%);
+	transition: 1s ease-in-out;
+	border-radius: 3rem;
+ }
+
+.container .card:hover:before {
+  	clip-path: circle(150px at 80% -40%);
+ }
+
+.container .card:after {
+	content: '';
+	position: absolute;
+	top: 30%;
+	left: -20%;
+	font-size: 12em;
+	font-weight: 800;
+	font-style: italic;
+	color: rgba(255, 255, 25, 0.05)
+ }
+
+.container .card .imgBx {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 1;
+	width: 100%;
+	height: 100px;
+	transition: 0.5s;
+ }
+
+.container .card:hover .imgBx {
+	top: 0%;
+	transform: translateY(0%);
+
 }
+
+.container .card .contentBx {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	transition: 1s;
+	z-index: 10;
+ }
+
+.container .card:hover .contentBx {
+    height: 150px;
+ }
+ .card .contentBx a {
+    padding: 3px 6px;
+ }
+ .container .card .contentBx h2 {
+	margin-top: .5rem;
+    font-size: 1rem;
+}
+.carousel__pagination {
+   justify-content: start;
+ }
 }
 
 @media (min-width : 331px) and (max-width :500px) {
+.carousel__item {
+	min-height: 410px;
+  }
+  .container .card {
+   height: 350px;
+  }
   .container .card .imgBx img {
 	width: 200px;
   }
