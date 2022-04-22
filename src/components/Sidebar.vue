@@ -40,7 +40,7 @@
 		<div class="flex"></div>
 		
 		<div class="menu">
-			<router-link to="/setting" class="button">
+			<router-link to="/setting" class="button" @click="Menu">
 				<span class="material-icons">settings</span>
 				<span class="text">Settings</span>
 			</router-link>
