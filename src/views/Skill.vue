@@ -3,7 +3,7 @@
      <section class="skills section" id="skills">
 		 <h2 class="skills__subtitle text-center">{{title}}</h2>
                 <div class="skills__container bd-grid">
-                       <div>
+                       <div class="skills__info">
                                 <p class="skills__text"></p>
                                 <div class="skills__data">
                                     <div class="skills__names">
@@ -73,7 +73,7 @@
                                 </div>      
                         </div>
 
-                    <div>
+                    <div class="skills__info__image">
                         <img src="../assets/images/myView.jpg" alt=""
                             class="skills__img img-fluid" id="galleryFour" @click="imageViewOne">
                             <div class="div" id="popup">
@@ -129,10 +129,6 @@ export default {
 .section {
   padding-bottom: 2rem;
 }
-/* .skills__container {
-  row-gap: 2rem;
-  text-align: center;
-} */
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1rem;
@@ -242,6 +238,9 @@ export default {
 }
 
 @media (min-width: 290px) and (max-width: 349px){
+  .skills__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 	.skills__subtitle {
 		font-size: 1rem;
   		margin-bottom: 0.5rem
@@ -267,8 +266,14 @@ export default {
 }
 
 @media (min-width: 350px) and (max-width: 500px){
+  .skills__subtitle[data-v-6bb5fff2] {
+    margin-bottom:0;
+  }
+   .skills__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 	#skill-page {
-		margin-top: 5rem;
+		margin-top: 2rem;
 	}
 	.skills__icon {
 		font-size: 0.5rem;
