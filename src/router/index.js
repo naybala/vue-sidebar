@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+import Home from '../components/Home.vue'
 
 const router = createRouter({
 	history: createWebHistory(),
@@ -10,23 +10,23 @@ const router = createRouter({
 		},
 		{
 			path: '/about',
-			component: () => import('../views/About.vue')
+			component: () => import('../components/About.vue')
 		},
 		{
 			path: '/skill',
-			component: () => import('../views/Skill.vue')
+			component: () => import('../components/Skill.vue')
 		},
 		{
 			path: '/project',
-			component: () => import('../views/Project.vue')
+			component: () => import('../components/Project.vue')
 		},
 		{
 			path: '/contact',
-			component: () => import('../views/Contact.vue')
+			component: () => import('../components/Contact.vue')
 		},
 		{
 			path: '/setting',
-			component: () => import('../views/setting.vue')
+			component: () => import('../components/Setting.vue')
 		},
 	],
 })
